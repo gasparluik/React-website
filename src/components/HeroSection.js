@@ -6,7 +6,7 @@ import {Button} from './Button.js';
 function HeroSection() {
     return (
         <div className='hero-container'>
-        <video autoPlay loop muted> <source src='../../videos/video-2.mp4'/> </video>
+        <video autoPlay loop muted> <source src='../../videos/planet.mp4' alt="Vecteezy.com"/> </video>
         <h1>ADVENUTRE AWAITS</h1>
         <p>What are you waiting for?</p>
             <div className="hero-btns">
