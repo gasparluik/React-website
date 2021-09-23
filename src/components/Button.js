@@ -15,15 +15,17 @@ export const Button = ({children,
     const checkbuttonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
 
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0];
-
-    return (
+    return(
         <Link to="/sign-up" className="btn-mobile">
-            <Button
-             className={`btn ${checkbuttonStyle} ${checkButtonSize}`} onClick={onClick} type={type}>
-
-            {children}
-            </Button>
+        
+        <button
+        className={`btn ${checkbuttonStyle} ${checkButtonSize}`} onClick={onClick} type={type}>
+        {children}
+        </button>
 
         </Link>
     )
-};
+
+}
+
+export default Button;
