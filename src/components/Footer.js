@@ -43,12 +43,12 @@ function Footer() {
                     </div>
                     <div className="footer-link-items">
                         <h2>Social media</h2>
-                        <Link to="/">LinkedIn</Link>
+                        <a href="https://www.linkedin.com/in/gaspar-luik/">LinkedIn</a>
                         <Link to="/">Facebook</Link>
                     </div>
                     <div className="footer-link-items">
                         <h2>Music</h2>
-                        <Link to="/">Mixcloud</Link>
+                        <a href="https://mixcloud.com/gaspar-luik">Mixcloud</a>
                     </div>
                 </div>
             </div>
