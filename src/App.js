@@ -6,6 +6,7 @@ import Home from './components/pages/Home.js';
 import Services from './components/pages/Services';
 import Products from './components/pages/Products';
 import SingUp from './components/pages/SingUp';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path = '/products' exact component={Products}/>
         <Route path = '/sign-up' exact component={SingUp}/>
       </Switch>
+      <Footer />
       </Router>
     </>
   );

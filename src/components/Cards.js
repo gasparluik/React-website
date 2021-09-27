@@ -6,6 +6,9 @@ import Img2 from '../images/tatooine.jpeg';
 import Img3 from '../images/img-5.jpg';
 import Img4 from '../images/img-4.jpg';
 import Img5 from '../images/img-2.jpg';
+import Img6 from '../images/img-1.jpg';
+import Img7 from '../images/STRWRS.jpeg';
+import Img8 from '../images/LOTR.jpeg';
 
 
 function Cards() {
@@ -30,19 +33,19 @@ function Cards() {
                     </ul>
                     <ul className="cards__items">
                         <CardItem
-                            src={Img4}
-                            text="Explore the uncharted planets in the CI-13 solar system"
-                            label='Luxury'
+                            src={Img7}
+                            text="Escape the imperials with Han Solo"
+                            label='Adventure'
                             path="/services"
                         />
                         <CardItem
-                            src={Img5}
-                            text="Connect with The Force on Tatooine"
-                            label='Luxury'
+                            src={Img8}
+                            text="Get corrupted by wearing a ring"
+                            label='Adventure'
                             path="/services"
                         />
                         <CardItem
-                            src={Img3}
+                            src={Img6}
                             text="Hang out with the cast of Madagascar"
                             label='Family'
                             path="/services"
@@ -55,3 +58,4 @@ function Cards() {
 }
 
 export default Cards
+

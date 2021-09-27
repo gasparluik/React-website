@@ -34,21 +34,57 @@ function Footer() {
                         <Link to="/sign-up">Terms of service</Link>
                         <Link to="/sign-up">Privacy Policy</Link>
                     </div>
+                </div>
+                <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <h2>Contact us</h2>
                         <Link to="/sign-up">Support</Link>
                         <Link to="/sign-up">Contacts</Link>
-                        <Link url="linkedin.com/gaspar.luik">LinkedIn</Link>
-                        <p>luik.gaspar@gmail.com</p>
-                        <p>+372 55588478</p>
                     </div>
                     <div className="footer-link-items">
                         <h2>Social media</h2>
-                        <Link to="/sign-up">How it works</Link>
-
+                        <Link to="/">LinkedIn</Link>
+                        <Link to="/">Facebook</Link>
+                    </div>
+                    <div className="footer-link-items">
+                        <h2>Music</h2>
+                        <Link to="/">Mixcloud</Link>
                     </div>
                 </div>
             </div>
+            <section className="social-media">
+                <div className="social-media-wrap">
+                    <div className="footer-logo">
+                    <Link to='/' className="social-logo">
+                        Neuroman <i className="fas fa-meteor" />
+                    </Link>
+                    </div>
+                    <small className="website-rights">TRVL ® 2021</small>
+                    <div className="social-icons">
+                        <Link className="social-icon-link facebook"
+                        to="/"
+                        target="_blank"
+                        aria-label="Facebook"
+                        >
+                            <i className="fab fa-facebook-f"></i>
+                        </Link>
+                        <Link className="social-icon-link linkedin"
+                        to="/"
+                        target="_blank"
+                        aria-label="LinkedIn"
+                        >
+                            <i className="fab fa-linkedin"></i>
+                        </Link>
+                        <Link className="social-icon-link github"
+                        to="/"
+                        target="_blank"
+                        aria-label="Github"
+                        >
+                            <i className="fab fa-github"></i>
+                        </Link>
+                    </div>
+                </div>
+            </section>
         </div>
     )
 }
