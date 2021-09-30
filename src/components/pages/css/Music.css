@@ -1,0 +1,40 @@
+.music {
+    background-image: url('../../../images/img-5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 75px;
+    height:100%;
+}
+
+.music-player-wrapper {
+    position: relative;
+    padding: 8rem 2rem 8rem 2rem;
+    display: flex;
+
+}
+.music-player-items{
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+    
+}
+
+.music-player-item{
+    margin: 10px 30px 10px 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 1024px) {
+    .music-player-items {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .music-player-item {
+        margin-bottom: 2rem;
+    }
+    }

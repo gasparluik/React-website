@@ -49,6 +49,9 @@ function Footer() {
                     <div className="footer-link-items">
                         <h2>Music</h2>
                         <a href="https://mixcloud.com/gaspar-luik">Mixcloud</a>
+                        <Link to="/Music">
+                            Listen here
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -59,29 +62,32 @@ function Footer() {
                         Neuroman <i className="fas fa-meteor" />
                     </Link>
                     </div>
-                    <small className="website-rights">TRVL ® 2021</small>
+                    <small className="website-rights">Neuroman ® 2021</small>
                     <div className="social-icons">
                         <Link className="social-icon-link facebook"
                         to="/"
                         target="_blank"
                         aria-label="Facebook"
                         >
-                            <i className="fab fa-facebook-f"></i>
+                        <i className="fab fa-facebook-f"></i>
                         </Link>
+
                         <Link className="social-icon-link linkedin"
                         to="/"
                         target="_blank"
                         aria-label="LinkedIn"
                         >
-                            <i className="fab fa-linkedin"></i>
+                        <i className="fab fa-linkedin"/>
                         </Link>
-                        <Link className="social-icon-link github"
-                        to="/"
-                        target="_blank"
-                        aria-label="Github"
-                        >
-                            <i className="fab fa-github"></i>
-                        </Link>
+
+                        <a className="social-icon-link github"
+                        href="https://github.com/gasparluik/React-website">
+                        <i className="fab fa-github"/>
+                        </a>
+                        <a className="social-icon-link mixcloud" 
+                        href="https://mixcloud.com">
+                        <i className="fab fa-mixcloud"/>
+                        </a>
                     </div>
                 </div>
             </section>
